@@ -5,7 +5,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ## Design Guidline
 
 This is the Readme file i've be using as a guidline to create this app
-![Design Guidline](./assets/images/Design%20Guidline.jpg)
+
+<div align="center">
+  ![Design Guidline](./assets/images/Design%20Guidline.jpg)
+</div>
 
 ## Pages/Layout
 
