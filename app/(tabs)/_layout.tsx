@@ -3,6 +3,10 @@ import { Tabs } from "expo-router";
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
+// Import your Inbox component (still needed for local component definition, but not directly used in Tabs.Screen component prop if relying on file-system routing)
+// If inbox.js is in the same directory as your TabLayout.js, expo-router will find it by name
+// import Inbox from "./inbox"; // This import is no longer strictly needed here if relying purely on file-system routing for Tabs.Screen
+
 const BadgeIcon = ({ name, size, color, badgeCount }) => {
   return (
     <View style={styles.iconContainer}>
@@ -15,15 +19,16 @@ const BadgeIcon = ({ name, size, color, badgeCount }) => {
     </View>
   );
 };
+
 export default function TabLayout() {
-  const [inboxCount, setInboxCount] = useState(9);
+  const [inboxCount, setInboxCount] = useState(9); // Example badge count
 
   return (
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: "white",
         tabBarInactiveTintColor: "#8e8e93",
-        headerShown: false,
+        headerShown: false, // Hide default header for all tabs
         tabBarStyle: {
           backgroundColor: "black",
           borderTopWidth: 0,
@@ -37,7 +42,7 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="index"
+        name="index" // This would typically be your Home screen (app/index.js)
         options={{
           title: "Home",
           tabBarIcon: ({ color, focused }) => (
@@ -50,7 +55,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="friends"
+        name="friends" // Assuming this is your Discover screen (app/friends.js)
         options={{
           title: "Discover",
           tabBarIcon: ({ color, focused }) => (
@@ -63,9 +68,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="camera"
+        name="camera" // The Add/Camera button (app/camera.js)
         options={{
-          title: "",
+          title: "", // No title for the add button
           tabBarIcon: () => (
             <View style={styles.addButton}>
               <Ionicons name="add-sharp" size={24} color="black" />
@@ -75,7 +80,7 @@ export default function TabLayout() {
       />
 
       <Tabs.Screen
-        name="inbox"
+        name="inbox" // Will automatically render app/inbox.js
         options={{
           title: "Inbox",
           tabBarIcon: ({ color, focused }) => (
@@ -91,7 +96,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="profile" // Your profile screen (app/profile.js)
         options={{
           title: "Me",
           tabBarIcon: ({ color, focused }) => (
