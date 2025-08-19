@@ -2,6 +2,24 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Design Guidline
+
+This is the Readme file i've be using as a guidline to create this app
+![Design Guidline](./assets/images/Design%20Guidline.jpg)
+
+## Pages/Layout
+
+1. Home
+2. Friends
+3. Camera
+4. Inbox
+5. Profile
+
+## Techonlogoies Uused
+
+1.
+1. EXPO Camera
+
 ## Get started
 
 1. Install dependencies

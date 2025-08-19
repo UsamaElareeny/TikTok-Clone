@@ -25,10 +25,10 @@ export default function TabLayout() {
       <Tabs.Screen
         name="friends"
         options={{
-          title: "Friends",
+          title: "Discover",
           tabBarIcon: ({ focused }) => (
             <Ionicons
-              name={focused ? "people-sharp" : "people-outline"}
+              name={focused ? "search-sharp" : "search-outline"}
               size={24}
               color="black"
             />
@@ -77,7 +77,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="profile"
         options={{
-          title: "Profile",
+          title: "Me",
           tabBarIcon: ({ focused }) => (
             <Ionicons
               name={focused ? "person-sharp" : "person-outline"}
