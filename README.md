@@ -2,19 +2,23 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Design Guidline
+## Design Guidline (Figma Kit)
 
-This is the Readme file i've be using as a guidline to create this app
+This is the Design file i've be using as a guidline to create this app
 
 <p align="center">
-  <img src="./assets/images/Design%20Guidline.jpg" alt="Design Guidline" width="600"/>
+  <img src="./assets/images/Home.png" alt="Design Guidline" width="600"/>
+  <img src="./assets/images/Camera.png" alt="TikTok Camera" width="600"/>
+  <img src="./assets/images/TikTok Comments.png" alt="TikTok Comments" width="600"/>
+  <img src="./assets/images/TikTok Direct Message.png" alt="Direct Messaging" width="600"/>
+  <img src="./assets/images/TikTok User.png" alt="TikTok User" width="600"/>
 </p>
 
 ## Pages/Layout
 
 1. Home
-2. Friends
-3. Camera
+2. Discover
+3. Camera (Expo Camera)
 4. Inbox
 5. Profile
 

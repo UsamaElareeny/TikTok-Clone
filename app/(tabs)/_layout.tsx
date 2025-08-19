@@ -1,5 +1,6 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Tabs } from "expo-router";
+import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 const BadgeIcon = ({ name, size, color, badgeCount }) => {
@@ -15,7 +16,7 @@ const BadgeIcon = ({ name, size, color, badgeCount }) => {
   );
 };
 export default function TabLayout() {
-  // const [inboxCount, setInboxCount] = useState(9);
+  const [inboxCount, setInboxCount] = useState(9);
 
   return (
     <Tabs
@@ -31,7 +32,7 @@ export default function TabLayout() {
           bottom: 0,
           left: 0,
           right: 0,
-          height: 78,
+          height: 83,
         },
       }}
     >
@@ -84,8 +85,7 @@ export default function TabLayout() {
               }
               size={28}
               color={color}
-              focused={focused}
-              badgeCount={9}
+              badgeCount={inboxCount}
             />
           ),
         }}
