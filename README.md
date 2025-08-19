@@ -6,9 +6,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 This is the Readme file i've be using as a guidline to create this app
 
-<div align="center">
-  ![Design Guidline](./assets/images/Design%20Guidline.jpg)
-</div>
+<p align="center">
+  <img src="./assets/images/Design%20Guidline.jpg" alt="Design Guidline" width="600"/>
+</p>
 
 ## Pages/Layout
 
