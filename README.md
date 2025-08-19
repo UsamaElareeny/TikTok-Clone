@@ -1,37 +1,46 @@
-# Welcome to your Expo app 👋
+# React Native Task
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project was developed as part of a **InstaCodigo Internship Task**.  
+The goal was to build a **TikTok-like video feed app** using [Expo](https://expo.dev), focusing on **UI/UX, smooth scrolling, and reusable components**
 
 ## Demo Video
 
-👉 [Watch full demo video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+👉 [Watch full demo video](https://drive.google.com/file/d/1kpqYHlmVZu9M2v0I2TDxvrO1WxGfLqFx/view?usp=sharing)
+
+---
+
+## Application Images
 
 <p align="center">
-<video>
+  <img src="./assets/images/Demo Image 1.jpg" alt="Demo 1" width="400"/>
+  <img src="./assets/images/Demo Image 2.jpg" alt="Demo 2" width="400"/>
+</p>
+<p align="center">
+  <img src="./assets/images/Demo Image 3.jpg" alt="Demo 3" width="400"/>
+  <img src="./assets/images/Demo Image 4.jpg" alt="Demo 4" width="400"/>
 </p>
 
-## Demo Images
+---
+
+## Design Guideline (Figma Kit)
+
+This is the design file I followed as a reference to build the app:
 
 <p align="center">
-  <img src="./assets/images/Demo Image 1.jpg" alt="Demo 1" width="600"/>
-  <img src="./assets/images/Demo Image 2.jpg" alt="Demo 1" width="600"/>
-  <img src="./assets/images/Demo Image 3.jpg" alt="Demo 1" width="600"/>
-  <img src="./assets/images/Demo Image 4.jpg" alt="Demo 1" width="600"/>
+  <img src="./assets/images/Home.png" alt="Design Guideline" width="400"/>
+  <img src="./assets/images/Camera.png" alt="TikTok Camera" width="400"/>
 </p>
-
-## Design Guidline (Figma Kit)
-
-This is the Design file i've be using as a guidline to create this app
-
 <p align="center">
-  <img src="./assets/images/Home.png" alt="Design Guidline" width="600"/>
-  <img src="./assets/images/Camera.png" alt="TikTok Camera" width="600"/>
-  <img src="./assets/images/TikTok Comments.png" alt="TikTok Comments" width="600"/>
-  <img src="./assets/images/TikTok Direct Message.png" alt="Direct Messaging" width="600"/>
-  <img src="./assets/images/TikTok User.png" alt="TikTok User" width="600"/>
+  <img src="./assets/images/TikTok Comments.png" alt="TikTok Comments" width="400"/>
+  <img src="./assets/images/TikTok Direct Message.png" alt="Direct Messaging" width="400"/>
+</p>
+<p align="center">
+  <img src="./assets/images/TikTok User.png" alt="TikTok User" width="400"/>
 </p>
 
-## Pages/Layout
+---
+
+## 📑 Pages / Layout
 
 1. Home
 2. Discover
@@ -39,21 +48,25 @@ This is the Design file i've be using as a guidline to create this app
 4. Inbox
 5. Profile
 
-## Techonlogoies Uused
+---
 
-1.
-1. EXPO Camera
+## 🛠️ Technologies Used
 
-## Get started
+- **React Native (with Expo)** → cross-platform app development
+- **Expo Router** → navigation and structure
+- **Expo Video** → video playback
+- **Expo Camera** → camera functionality
+- **NativeWind (Tailwind for React Native)** → styling
+- **React Native Reanimated** → smooth animations
+- **Vector Icons (Ionicons)** → icons and UI polish
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Get Started
 
-2. Start the app
+1. Install dependencies:
 
-   ```bash
-   npx expo start
-   ```
+   `bash npm install`
+
+2. Start the app:
+   `npx expo start`
