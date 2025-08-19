@@ -5,7 +5,7 @@ The goal was to build a **TikTok-like video feed app** using [Expo](https://expo
 
 ## Demo Video
 
-👉 [Watch full demo video](https://drive.google.com/file/d/1kpqYHlmVZu9M2v0I2TDxvrO1WxGfLqFx/view?usp=sharing)
+👉 [Watch Full Demo Video](https://drive.google.com/file/d/1kpqYHlmVZu9M2v0I2TDxvrO1WxGfLqFx/view?usp=sharing)
 
 ---
 
@@ -65,7 +65,6 @@ This is the design file I followed as a reference to build the app:
 ## 🚀 Get Started
 
 1. Install dependencies:
-
    `bash npm install`
 
 2. Start the app:
