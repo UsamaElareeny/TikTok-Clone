@@ -2,6 +2,8 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Demo Video
+
 ## Design Guidline (Figma Kit)
 
 This is the Design file i've be using as a guidline to create this app
